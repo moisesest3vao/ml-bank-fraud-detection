@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  ml-bank-fraud-detector:
+    build: api/
+    ports:
+      - "8000:8000"

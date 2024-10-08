@@ -1,0 +1,29 @@
+{
+    "training_file_path": "Base.csv",
+    "numerical_features" : [
+        "income",
+        "prev_address_months_count",
+        "current_address_months_count",
+        "customer_age",
+        "days_since_request",
+        "intended_balcon_amount",
+        "zip_count_4w",
+        "velocity_6h",
+        "velocity_24h",
+        "velocity_4w",
+        "bank_branch_count_8w",
+        "date_of_birth_distinct_emails_4w",
+        "bank_months_count",
+        "session_length_in_minutes",
+        "device_distinct_emails_8w",
+        "device_fraud_count"
+    ],
+    "categorical_columns" : [
+        "payment_type",
+        "employment_status",
+        "source",
+        "device_os",
+        "housing_status"
+    ],
+    "y": "fraud_bool"
+}
